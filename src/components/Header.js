@@ -3,34 +3,34 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
+      <nav className="navbar navbar-default">
+        <div className="container">
+          <div className="navbar-header">
             <button
               type="button"
-              class="navbar-toggle collapsed"
+              className="navbar-toggle collapsed"
               data-toggle="collapse"
               data-target="#navbar"
               aria-expanded="false"
               aria-controls="navbar"
             >
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar" />
-              <span class="icon-bar" />
-              <span class="icon-bar" />
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar" />
+              <span className="icon-bar" />
+              <span className="icon-bar" />
             </button>
 
-            <a class="navbar-brand" href="/">
+            <a className="navbar-brand" href="/">
               ShoppingCart
             </a>
           </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
+          <div id="navbar" className="collapse navbar-collapse">
+            <ul className="nav navbar-nav">
               <li>
                 <a href="#">Home</a>
               </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <ul className="nav navbar-nav navbar-right">
               <li>
                 <a href="#">Login</a>
               </li>
